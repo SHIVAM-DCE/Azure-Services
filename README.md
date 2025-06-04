@@ -16,7 +16,7 @@ Introduction of Azure Services:
              You’re a web developer with a Windows 10 laptop. You need to test a web application (e.g., a Python Flask app) on a Linux environment like Ubuntu,
              but you don’t have a second machine.Then you can use virtual machines available on cloud services.
 
-   --Types of Virtual Machines (VMs): 
+   --Types of Virtual Machines (VMs):
                1. System Virtual Machines: These emulate a complete physical computer, including virtual CPU, memory, storage, and networking, allowing a full operating system
                                           (guest OS) to run on a host machine.It replicate the functionality of a standalone machine to run multiple OS environments on one physical device.
                2. Process Virtual Machine: These are designed to run a single application or process in an isolated, platform-independent environment, abstracting the underlying OS and hardware.
