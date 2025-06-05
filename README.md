@@ -24,6 +24,7 @@ Introduction of Azure Services:
 
                                         
 
+
 2.Azure Storage: It is a cloud storage service provided by Microsoft Azure. Azure Storage is a managed service for storing structured and      unstructured data in the cloud. It provides durability, scalability, and security, with features like encryption, access control, and redundancy options . It’s widely used for applications, backups, archiving, big data, and more.
 
 ----->Types of Azure Storage:
@@ -71,4 +72,36 @@ Introduction of Azure Services:
             Messaging: Use Queue Storage for task queues or async processing.
             VM Storage: Use Disk Storage for virtual machine disks.
 
-   
+
+
+
+3. Azure Virtual Network : It is a fundamental component of Microsoft Azure, enabling secure, isolated networking in the cloud.
+                            It allows you  to create a logically isolated section in Azure where you can deploy and manage resources like virtual machines (VMs), databases, and applications, mimicking a traditional on-premises network but with the scalability and flexibility of the cloud.
+
+----->Key Features: 
+        ->Isolation: VNets provide a private, isolated environment for your Azure resources, ensuring they aren’t accessible from other networks   unless configured.
+        ->Customizable IP Addressing: You define private IP address ranges (IPv4 or IPv6).
+        ->Subnets: Divide a VNet into smaller segments (subnets) for organization, security, and traffic management.
+        ->Connectivity: Connects Azure resources to each other, to on-premises networks, or to the internet.
+        ->Security: Integrates with Network Security Groups (NSGs) for firewall-like rules, and supports Azure Firewall.
+        ->Scalability: Scales seamlessly with your workload, supporting thousands of resources.
+        ->Redundancy: Built on Azure’s global, highly available infrastructure.
+
+----->Core Components : 
+        *Address Space
+        * Subnets
+        *Routing
+        *Network Security Groups (NSGs)
+        *Connectivity Options
+            ->VNet Peering: Connects two VNets (in the same or different regions) for low-latency, private communication.
+            ->VPN Gateway: Connects on-premises networks to Azure via a secure site-to-site or point-to-site VPN.
+            ->ExpressRoute: A private, high-bandwidth connection to Azure, bypassing the public internet.
+            ->Internet Connectivity: Resources can access the internet via public IPs or NAT gateways.
+
+----->Use Cases: 
+            -> Host Applications: Deploy VMs, app services, or Kubernetes clusters (via Azure Kubernetes Service) in a secure, isolated network.
+            ->Hybrid Cloud: Connect on-premises data centers to Azure for hybrid workloads using VPN or ExpressRoute.
+            ->Secure Communication: Isolate sensitive workloads and control traffic with NSGs, firewalls, and private endpoints.
+            ->Disaster Recovery: Replicate resources across regions with VNet peering or geo-redundant setups.
+        
+
