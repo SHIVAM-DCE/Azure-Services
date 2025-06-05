@@ -72,3 +72,44 @@ Introduction of Azure Services:
             VM Storage: Use Disk Storage for virtual machine disks.
 
    
+
+3. Azure SQL Database: It is a fully managed, platform-as-a-service (PaaS) relational database service within the Azure SQL family, built on Microsoft SQL Server. It provides a scalable, secure, and highly available cloud database solution, eliminating the need for manual infrastructure management like patching, backups, or server maintenance. It’s ideal for modern cloud applications and supports relational data, JSON, spatial, and XML formats.
+
+--->Key Features: 
+        *Scalability
+        *Serverless
+        *High Availability
+        *Security
+        *Performance (Automatic tuning (e.g., index creation, query optimization)).
+        *Management
+        *Connectivity:
+
+--->Deployment Options :
+        *Single Database: A standalone database with dedicated resources.
+                        Ideal for apps needing a single, isolated database (e.g., a small web app).
+        *Elastic Pool: A collection of databases sharing a pool of resources (compute, memory, etc.).
+                        Cost-effective for multiple databases with variable workloads (e.g., SaaS applications).
+
+--->Purchasing Models :
+        -DTU-Based Model : Database Transaction Units (DTUs) bundle CPU, memory, and I/O.
+            Tiers: Basic, Standard, Premium
+
+        -vCore-Based Model: Choose virtual cores, memory, and storage independently.
+            Tiers: General Purpose, Business Critical, Hyperscale
+
+        -Serverless : Auto-scales compute based on demand, pauses during inactivity.
+            Billed per second, ideal for unpredictable workloads.
+
+---> Use Cases: 
+        -Web and Mobile Apps: Host databases for e-commerce, blogs, or mobile backends.
+        -Transactional Systems: Support CRM, ERP, or financial applications.
+        -Business Intelligence: Integrate with tools like Power BI for reporting.
+        -Development and Testing: Rapidly provision databases for dev/test environments.
+        -Multi-Region Apps: Use geo-replication for global availability and low latency.
+
+---> Key Considerations
+        -Performance Tier
+        -Cost
+        -Size Limits
+        -Networking
+        -Migration
