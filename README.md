@@ -147,3 +147,7 @@ Introduction of Azure Services:
             -Multi-Cloud: Manage Azure alongside AWS, GCP, or other providers in one workflow.
             -Idempotency: Terraform applies only necessary changes, avoiding duplication.
             -Cost Management: Define resources precisely to avoid over-provisioning.
+
+
+
+            new bnvvgvhlhl
