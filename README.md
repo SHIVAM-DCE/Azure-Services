@@ -71,7 +71,39 @@ Introduction of Azure Services:
             Messaging: Use Queue Storage for task queues or async processing.
             VM Storage: Use Disk Storage for virtual machine disks.
 
-   
+
+
+3. Azure Virtual Network (VNet): It is a fundamental component of Microsoft Azure, enabling secure, isolated networking in the cloud. 
+                            It allows you to create a logically isolated section in Azure where you can deploy and manage resources like virtual machines (VMs), databases, and applications, mimicking a                                       traditional on-premises network but with the scalability and flexibility of the cloud.
+
+---> Key Features: 
+          Isolation: VNets provide a private, isolated environment for your Azure resources, ensuring they aren’t accessible from other networks unless configured.
+          Customizable IP Addressing: You define private IP address ranges (IPv4 or IPv6) using CIDR notation (e.g., 10.0.0.0/16).
+          Subnets: Divide a VNet into smaller segments (subnets) for organization, security, and traffic management.
+          Connectivity: Connects Azure resources to each other, to on-premises networks, or to the internet.
+          Security: Integrates with Network Security Groups (NSGs) for firewall-like rules, and supports Azure Firewall, DDoS protection, and private endpoints.
+          Scalability: Scales seamlessly with your workload, supporting thousands of resources.
+          Redundancy: Built on Azure’s global, highly available infrastructure.
+---> Core Components: 
+          -Address Space
+          -Subnets
+          -Routing
+          -Network Security Groups (NSGs)
+          -Connectivity Options
+          -Internet Connectivity
+              *VNet Peering: Connects two VNets (in the same or different regions) for low-latency, private communication.
+              *VPN Gateway: Connects on-premises networks to Azure via a secure site-to-site or point-to-site VPN.
+              *ExpressRoute: A private, high-bandwidth connection to Azure, bypassing the public internet.
+
+
+---> Use Cases: 
+          -Host Applications: Deploy VMs, app services, or Kubernetes clusters (via Azure Kubernetes Service) in a secure, isolated network.
+          -Hybrid Cloud: Connect on-premises data centers to Azure for hybrid workloads using VPN or ExpressRoute.
+          -Secure Communication: Isolate sensitive workloads and control traffic with NSGs, firewalls, and private endpoints.
+          -Scalable Infrastructure: Support multi-tier apps (e.g., web, app, and database tiers) in separate subnets.
+          -Disaster Recovery: Replicate resources across regions with VNet peering or geo-redundant setups.
+
+
 
 4. Azure SQL Database: It is a fully managed, platform-as-a-service (PaaS) relational database service within the Azure SQL family, built on Microsoft SQL Server. It provides a scalable, secure, and highly available cloud database solution, eliminating the need for manual infrastructure management like patching, backups, or server maintenance. It’s ideal for modern cloud applications and supports relational data, JSON, spatial, and XML formats.
 
