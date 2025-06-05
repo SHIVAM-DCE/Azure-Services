@@ -22,6 +22,8 @@ Introduction of Azure Services:
                2. Process Virtual Machine: These are designed to run a single application or process in an isolated, platform-independent environment, abstracting the underlying OS and hardware.
                                            It Provide a runtime environment for a specific program, shielding it from the host OS differences.
 
+                                           <br>add
+
 
 
 
