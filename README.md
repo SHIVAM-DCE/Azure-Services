@@ -24,7 +24,5 @@ Introduction of Azure Services:
 
                                         
 
-ggkj
 
-hrhvrlvj
    
