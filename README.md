@@ -4,7 +4,7 @@ Introduction of Azure Services:
 1. Virtual Machine: A virtual machine (VM) is a software-based emulation of a physical computer, allowing multiple operating systems to run on a single physical host.
                     It uses a hypervisor to manage resources like CPU, memory, storage, and networking, isolating each VM for security and flexibility.
 
-    -- Benefits: 
+    ---> Benefits: 
               Multi-OS Support: Run Linux on a Windows host, macOS on a PC, etc.
               Testing & Development: Experiment with software, OS versions, or configurations safely.
               Server Consolidation: Host multiple VMs (e.g., web server, database) on one physical server.
@@ -12,11 +12,11 @@ Introduction of Azure Services:
               Portability: VMs can be saved as files, moved, or backed up.
               Cost Efficiency: Reduces need for multiple physical machines.
 
-    -- Example Scenario:
+    ---> Example Scenario:
              You’re a web developer with a Windows 10 laptop. You need to test a web application (e.g., a Python Flask app) on a Linux environment like Ubuntu,
              but you don’t have a second machine.Then you can use virtual machines available on cloud services.
 
-   --Types of Virtual Machines (VMs):
+   ---> Types of Virtual Machines (VMs):
                1. System Virtual Machines: These emulate a complete physical computer, including virtual CPU, memory, storage, and networking, allowing a full operating system
                                           (guest OS) to run on a host machine.It replicate the functionality of a standalone machine to run multiple OS environments on one physical device.
                2. Process Virtual Machine: These are designed to run a single application or process in an isolated, platform-independent environment, abstracting the underlying OS and hardware.
@@ -27,7 +27,7 @@ Introduction of Azure Services:
 
 2.Azure Storage: It is a cloud storage service provided by Microsoft Azure. Azure Storage is a managed service for storing structured and      unstructured data in the cloud. It provides durability, scalability, and security, with features like encryption, access control, and redundancy options . It’s widely used for applications, backups, archiving, big data, and more.
 
------>Types of Azure Storage:
+---> Types of Azure Storage:
 
         a> Blob Storage: It Stores unstructured data like documents, images, videos, backups, and logs.
                 Types:
@@ -63,9 +63,8 @@ Introduction of Azure Services:
                         Features: Snapshots, encryption, and scalability.
 
 
------> Key Features of Azure Storage: Scalability, Redundancy, Security, Access
-
------> Choosing the Right Type of azure storage: 
+---> Key Features of Azure Storage: Scalability, Redundancy, Security, Access
+---> Choosing the Right Type of azure storage: 
             Unstructured Data: Use Blob Storage for files, images, or backups.
             File Sharing: Use File Storage for shared access across apps or users.
             Semi-Structured Data: Use Table Storage for key-value data.
@@ -74,11 +73,10 @@ Introduction of Azure Services:
 
 
 
-
 3. Azure Virtual Network : It is a fundamental component of Microsoft Azure, enabling secure, isolated networking in the cloud.
-                            It allows you  to create a logically isolated section in Azure where you can deploy and manage resources like virtual machines (VMs), databases, and applications, mimicking a traditional on-premises network but with the scalability and flexibility of the cloud.
+                            It allows you  to create a logically isolated section in Azure where you can deploy and manage resources like virtual machines (VMs), databases, and applications, mimicking a                                     traditional on-premises network but with the scalability and flexibility of the cloud.
 
------>Key Features: 
+---> Key Features: 
         ->Isolation: VNets provide a private, isolated environment for your Azure resources, ensuring they aren’t accessible from other networks   unless configured.
         ->Customizable IP Addressing: You define private IP address ranges (IPv4 or IPv6).
         ->Subnets: Divide a VNet into smaller segments (subnets) for organization, security, and traffic management.
@@ -87,9 +85,9 @@ Introduction of Azure Services:
         ->Scalability: Scales seamlessly with your workload, supporting thousands of resources.
         ->Redundancy: Built on Azure’s global, highly available infrastructure.
 
------>Core Components : 
+---> Core Components : 
         *Address Space
-        * Subnets
+        *Subnets
         *Routing
         *Network Security Groups (NSGs)
         *Connectivity Options
@@ -98,10 +96,10 @@ Introduction of Azure Services:
             ->ExpressRoute: A private, high-bandwidth connection to Azure, bypassing the public internet.
             ->Internet Connectivity: Resources can access the internet via public IPs or NAT gateways.
 
------>Use Cases: 
-            -> Host Applications: Deploy VMs, app services, or Kubernetes clusters (via Azure Kubernetes Service) in a secure, isolated network.
-            ->Hybrid Cloud: Connect on-premises data centers to Azure for hybrid workloads using VPN or ExpressRoute.
-            ->Secure Communication: Isolate sensitive workloads and control traffic with NSGs, firewalls, and private endpoints.
-            ->Disaster Recovery: Replicate resources across regions with VNet peering or geo-redundant setups.
+--->Use Cases: 
+        -> Host Applications: Deploy VMs, app services, or Kubernetes clusters (via Azure Kubernetes Service) in a secure, isolated network.
+        ->Hybrid Cloud: Connect on-premises data centers to Azure for hybrid workloads using VPN or ExpressRoute.
+        ->Secure Communication: Isolate sensitive workloads and control traffic with NSGs, firewalls, and private endpoints.
+        ->Disaster Recovery: Replicate resources across regions with VNet peering or geo-redundant setups.
         
 
