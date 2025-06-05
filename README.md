@@ -22,7 +22,7 @@ Introduction of Azure Services:
                2. Process Virtual Machine: These are designed to run a single application or process in an isolated, platform-independent environment, abstracting the underlying OS and hardware.
                                            It Provide a runtime environment for a specific program, shielding it from the host OS differences.
 
-                                  <br><br>      
+                              
 
 
 2.Azure Storage: It is a cloud storage service provided by Microsoft Azure. Azure Storage is a managed service for storing structured and      unstructured data in the cloud. It provides durability, scalability, and security, with features like encryption, access control, and redundancy options . It’s widely used for applications, backups, archiving, big data, and more.
@@ -30,37 +30,37 @@ Introduction of Azure Services:
 ---> Types of Azure Storage:
 
         a> Blob Storage: It Stores unstructured data like documents, images, videos, backups, and logs.
-                Types:
-                    Block Blobs: Ideal for large, discrete objects (e.g., images, videos, backups). Supports up to 5 petabytes of data.
-                    Append Blobs: Optimized for append operations, perfect for logging or streaming data (e.g., log files).
-                    Page Blobs: Used for random read/write operations, primarily for virtual machine disks (e.g., VHDs for Azure VMs).
+              Types:
+                  Block Blobs: Ideal for large, discrete objects (e.g., images, videos, backups). Supports up to 5 petabytes of data.
+                  Append Blobs: Optimized for append operations, perfect for logging or streaming data (e.g., log files).
+                  Page Blobs: Used for random read/write operations, primarily for virtual machine disks (e.g., VHDs for Azure VMs).
 
-                    Use Cases: Media storage, backups, static web content.
-                    Features: Tiering options (Hot, Cool, Archive) for cost optimization based on access frequency.
+                  Use Cases: Media storage, backups, static web content.
+                  Features: Tiering options (Hot, Cool, Archive) for cost optimization based on access frequency.
 
         b> File Storage: It Provides fully managed file shares accessible via the SMB (Server Message Block) protocol or REST API.
-                        It Acts like a  network file share, allowing multiple clients (e.g., apps, VMs) to access files simultaneously.
+                  It Acts like a  network file share, allowing multiple clients (e.g., apps, VMs) to access files simultaneously.
 
-                        Use Cases: Shared file storage for applications, lift-and-shift of on-premises file shares, collaboration.
-                        Features: Integrates with Azure Active Directory for access control, supports snapshots for backup.
+                  Use Cases: Shared file storage for applications, lift-and-shift of on-premises file shares, collaboration.
+                  Features: Integrates with Azure Active Directory for access control, supports snapshots for backup.
 
         c> Table Storage:  A NoSQL key-value store for semi-structured data.
                             It Stores large amounts of data with flexible schemas, ideal for fast, simple queries using keys.
                     
-                        Use Cases: Storing user data, metadata, configuration data, or lightweight analytics.
-                        Features: Scalable, cost-effective, now often paired with Azure Cosmos DB Table API for enhanced capabilities.
+                Use Cases: Storing user data, metadata, configuration data, or lightweight analytics.
+                Features: Scalable, cost-effective, now often paired with Azure Cosmos DB Table API for enhanced capabilities.
 
         d> Queue Storage : It Enables reliable message queuing for asynchronous communication between application components.
-                        It Stores millions of messages (up to 64 KB each) to decouple processes and ensure reliable delivery.
-                        
-                        Use Cases: Task scheduling, workload distribution, background processing (e.g., order processing in e-commerce).
-                        Features: High throughput, simple REST-based access, message expiration options.
+                It Stores millions of messages (up to 64 KB each) to decouple processes and ensure reliable delivery.
+                
+                Use Cases: Task scheduling, workload distribution, background processing (e.g., order processing in e-commerce).
+                Features: High throughput, simple REST-based access, message expiration options.
 
         e> Disk Storage : It Provides managed disks for Azure Virtual Machines.
                         It Offers persistent block storage as solid-state drives (SSD) or hard disk drives (HDD) for VMs.
 
-                        Use Cases: VM storage, databases, big data workloads.
-                        Features: Snapshots, encryption, and scalability.
+                Use Cases: VM storage, databases, big data workloads.
+                Features: Snapshots, encryption, and scalability.
 
 
 ---> Key Features of Azure Storage: Scalability, Redundancy, Security, Access
