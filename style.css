@@ -8,7 +8,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: url("D:\bg.jpg")no-repeat;
+    background: url(/images/bg.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
